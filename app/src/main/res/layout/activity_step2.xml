@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dewhive.rahul.fofifirsttime.Step2"
+    android:background="@drawable/background"
+    >
+    <TextView
+        android:id="@+id/tvFofiLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fofi"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvFofiLogo"
+        android:layout_marginEnd="33dp"
+        android:textColor="#ffffff"
+        android:textSize="50px"/>
+    <TextView
+        android:id="@+id/tvHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFofiLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Guided first time Installation Setup"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:fontFamily="Amplitude-Regular"
+        />
+
+    <TextView
+        android:id="@+id/tvSubHeaderNo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/tvFofiLogo"
+        android:layout_below="@+id/tvHeaderText"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:background="@drawable/step2"/>
+
+    <TextView
+        android:id="@+id/tvSubHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step2_subheader"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="Amplitude-Regular"
+        android:layout_alignBottom="@+id/tvSubHeaderNo"
+        android:layout_toEndOf="@+id/tvSubHeaderNo"
+        android:layout_marginStart="23dp" />
+
+
+    <TextView
+        android:id="@+id/tvSubHeaderDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="@string/step2_description"
+        android:layout_below="@+id/tvSubHeaderNo"
+        android:layout_alignStart="@+id/tvSubHeaderNo"
+         />
+
+    <EditText
+        android:id="@+id/etEnterPinCode"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="7"
+        android:textSize="35dp"
+        android:background="#ffffff"
+        android:hint="Enter PinCode"
+        android:inputType="number"
+        android:layout_marginRight="100dp"
+        android:layout_alignBottom="@+id/tvSubHeaderDescription"
+        android:layout_toEndOf="@+id/tvSubHeaderDescription"
+        android:layout_alignTop="@+id/tvSubHeaderDescription" />
+
+    <TextView
+        android:id="@+id/tvPinCodeAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEnterPinCode"
+        android:layout_marginTop="16dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_toEndOf="@+id/tvSubHeaderDescription"
+        android:text="@string/pincode_address_bangalore" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llPressOK"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/tvtime"
+        android:layout_marginBottom="50dp">
+        <TextView
+            android:id="@+id/lblListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="Press"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:layout_weight="0.2"
+            android:paddingRight="23dp"
+         />
+
+        <Button
+            android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="0.6"
+            android:background="@drawable/ok"
+        android:id="@+id/buttonOK" />
+
+        <TextView
+            android:id="@+id/lblListItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="if Correct"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

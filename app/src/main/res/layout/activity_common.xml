@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dewhive.rahul.fofifirsttime.CommonActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvFofiLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fofi"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvFofiLogo"
+        android:layout_marginEnd="33dp"
+        android:textColor="#ffffff"
+        android:textSize="50px"/>
+    <TextView
+        android:id="@+id/tvHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFofiLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Guided first time Installation Setup"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:fontFamily="Amplitude-Regular"
+        />
+
+    <TextView
+        android:id="@+id/tvSubHeaderNo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/tvFofiLogo"
+        android:layout_below="@+id/tvHeaderText"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:background="@drawable/step1"/>
+
+    <TextView
+        android:id="@+id/tvSubHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step1_subheader"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="Amplitude-Regular"
+        android:layout_alignTop="@+id/tvSubHeaderNo"
+        android:layout_toEndOf="@+id/tvSubHeaderNo"
+        android:layout_marginStart="23dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvSubHeaderDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="@string/step1_description"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp" />
+
+    <EditText
+        android:id="@+id/etSelectLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="7"
+        android:textSize="35dp"
+        android:background="#ffffff"
+        android:hint="Select Location"
+        android:inputType="number"
+        android:layout_alignTop="@+id/tvSubHeaderDescription"
+        android:layout_toEndOf="@+id/tvSubHeaderDescription"
+        android:layout_marginStart="32dp"
+        android:visibility="invisible"
+         />
+
+    <TextView
+        android:id="@+id/tvEnglishLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etSelectLanguage"
+        android:layout_alignTop="@+id/etSelectLanguage"
+        android:layout_alignEnd="@+id/etSelectLanguage"
+        android:layout_marginTop="60dp"
+        android:text="English"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvKernatakaLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvEnglishLanguage"
+        android:layout_alignEnd="@+id/etSelectLanguage"
+        android:layout_alignTop="@+id/tvEnglishLanguage"
+        android:layout_marginTop="60dp"
+        android:text="ಕನಡ / Kannada"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>

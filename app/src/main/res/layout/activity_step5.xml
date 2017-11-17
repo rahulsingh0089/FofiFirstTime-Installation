@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dewhive.rahul.fofifirsttime.Step5">
+
+    <include android:id="@+id/header" layout="@layout/activity_common"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llPressOK"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+        android:layout_alignEnd="@+id/tvtime"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="40dp"
+        android:visibility="invisible">
+        <TextView
+            android:id="@+id/lblListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="Press"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:paddingRight="20dp"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+android:clickable="true"
+            android:layout_weight="0.6"
+            android:background="@drawable/ok"
+            android:id="@+id/buttonOK" />
+
+        <TextView
+            android:id="@+id/lblListItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="to start download"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llNetAvailable"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/warning_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="@string/check_net_connection"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llProgress"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignEnd="@+id/tvtime"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="40dp"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/zero_0p"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:paddingRight="20dp"
+            android:id="@+id/progressbar"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="Downloading..."
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

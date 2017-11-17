@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dewhive.rahul.fofifirsttime.Step3">
+
+    <include android:id="@+id/header" layout="@layout/activity_common"
+         />
+
+  <!--  <EditText
+        android:id="@+id/etEnterPinCode"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="7"
+        android:textSize="35dp"
+        android:background="#ffffff"
+        android:hint="Select Location"
+        android:inputType="number"
+        android:layout_marginRight="100dp"
+android:layout_alignStart="@+id/tvSubHeaderDescription"
+        android:layout_alignEnd="@+id/tvSubHeaderDescription"
+        />
+
+    <TextView
+        android:id="@+id/tvEnglishLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etEnterPinCode"
+        android:layout_alignTop="@+id/etEnterPinCode"
+        android:layout_alignEnd="@+id/etEnterPinCode"
+        android:layout_marginTop="60dp"
+        android:text="English"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:clickable="true"/>
+    <TextView
+        android:id="@+id/tvKernatakaLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvEnglishLanguage"
+        android:layout_alignEnd="@+id/etEnterPinCode"
+        android:layout_alignTop="@+id/tvEnglishLanguage"
+        android:layout_marginTop="60dp"
+        android:text="ಕನ#ಡ / Kannada"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:clickable="true"/>
+-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llPressOK"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignEnd="@+id/tvtime"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="40dp">
+        <TextView
+            android:id="@+id/lblListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="Press"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:paddingRight="23dp"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/ok"
+            android:id="@+id/buttonOK" />
+
+        <TextView
+            android:id="@+id/lblListItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="if Correct"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

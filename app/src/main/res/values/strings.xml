@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FofiFirstTime</string>
+    <string name="top_guide_header">Guided first time Installation Setup</string>
+    <string name="step1_subheader">Insert batteries in the remote control</string>
+    <string name="step1_description">
+        Your Fo-Fi ATV remote control comes with a pair of \n
+        matched batteries of the proper size. Open the back \n
+        cover of the remote control and insert the batteries,\n
+        observing the correct polarity as indicated inside the \n
+        battery compartment. \n\n
+
+        Reattach the back cover.</string>
+    <string name="step2_subheader">Add Pincode</string>
+    <string name="step2_description">To make sure your ATV has all features available in your \n area/ locality, add the pincode where you are using the ATV.</string>
+    <string name="step6_subheader">Add Pincode</string>
+    <string name="step6_description">To make sure your ATV has all features available in your \n
+area/ locality, add the pincode where you are using the ATV.</string>
+
+    <string name="step3_subheader">Choose a Language</string>
+    <string name="step3_description">
+        When your Fo-Fi ATV powers on, the first screen will allow \n
+you to choose a language. All text and dialog within the Fo- \n
+Fi application will be displayed in the selected language. \n\n
+Scroll up and down the list and press the button OK on your \n
+Fo-Fi ATV remote to choose a language.</string>
+    <string name="step4_subheader">Login to Fo-Fi account and activate your Fo-Fi ATV</string>
+    <string name="step4_description">
+        In order to activate your Fo-Fi ATV, it must be linked to a Fo- \n
+Fi account. Your Fo-Fi account keeps track of which Fo-Fi \n
+devices you own and allows you to add free and purchase \n
+channels from the Fo-Fi Channel Store. \n\n
+Instructions for activating your Fo-Fi ATV will be displayed \n
+on your ATV, including an activation code; e.g. “ACV5T7”. \n\n
+Note: Fo-Fi does NOT charge for device activation.</string>
+    <string name="step5_subheader">Downloading the latest software</string>
+    <string name="step5_description">
+        Once connected to the internet, your Fo-Fi ATV will \n
+download the latest version of Fo-Fi OS software and then \n
+reboot.</string>
+    <string name="check_net_connection">Kindly check your internet connection</string>
+    <string name="setup_complete">Setup Complete</string>
+    <string name="setup_complete_subheader">You’re now ready to start watching your favorite shows.</string>
+    <string name="setup_complete_description">Tips: You can personalize your Fo-Fi ATV by changing your \n
+theme or screensaver. You can use the Fo-Fi Channel Store \n
+to add new streaming channels, games, themes, \n
+screensavers, and other apps.</string>
+    <string name="pincode_address_bangalore">Bengaluru, Karnataka \n
+India</string>
+</resources>
